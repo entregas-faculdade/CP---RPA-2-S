@@ -1,0 +1,31 @@
+# Segredos e ambiente (NUNCA versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Build e saída
+dist/
+build/
+.next/
+out/
+*.log
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Temporários
+tmp/
+temp/
+*.tmp
